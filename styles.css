@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+.card{
+    background-color: hsl(0, 0%, 12%);
+    margin: 5% auto;
+    width: 22%;
+    border-radius: 10px;
+    padding: 35px;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.profile-name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+}
+.profile-country{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.info{
+    color: hsl(0, 0%, 100%);
+    font-weight:400;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin: 30px 0px;
+}
+.social-nav{
+    display: flex;
+    flex-direction: column;
+}
+.social-nav a{
+    text-align: center;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 700;
+    padding: 15px 10px;
+    margin: 8px 0px;
+    border-radius: 8px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+.attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%) ;
+background-color: hsl(0, 0%, 12%); padding: 15px 0px;}
+
+.attribution a { color: hsl(75, 94%, 57%); }
+
+.social-nav a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    transition-duration: 0.3s;
+}
+@media (max-width:499px){
+    .card{
+        margin: 15% auto;
+        width: 70%;
+    }
+}
+@media (min-width:500px){
+    .card{
+        margin: 15% auto;
+        width: 40%;
+    }
+}
+@media (min-width:900px){
+    .card{
+        margin: 15% auto;
+        width: 25%;
+    }
+}
+
+
